@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+build/bin/libtasp-microservice.so.* ${LIB_DIR}

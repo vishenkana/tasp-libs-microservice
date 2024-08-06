@@ -1,0 +1,17 @@
+Checks: >
+  *,
+  -llvmlibc-*,
+  -llvm-header-guard,
+  -fuchsia-default-arguments-calls,
+  -fuchsia-default-arguments-declarations,
+  -altera-unroll-loops,
+  -altera-id-dependent-backward-branch,
+  -modernize-use-trailing-return-type,
+  -google-default-arguments,
+  -bugprone-easily-swappable-parameters,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -readability-magic-numbers,
+  -hicpp-signed-bitwise,
+  -misc-include-cleaner
+WarningsAsErrors: ''
+HeaderFilterRegex: '/(src|include)'

@@ -1,0 +1,3 @@
+libjsoncpp-dev
+libevent-dev
+libtasp-common-dev

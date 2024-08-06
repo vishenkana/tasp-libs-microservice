@@ -1,0 +1,23 @@
+Source: libtasp-microservice
+Section: libs
+Priority: optional
+Maintainer: dummy
+Standards-Version: 4.5.1
+
+Package: libtasp-microservice-dev
+Section: libdevel
+Architecture: amd64
+Multi-Arch: same
+Depends: libtasp-microservice (= ${binary:Version}), libjsoncpp-dev, ${misc:Depends}
+Description: Software package of technical analysis microservice - development
+ Library for creating microservices of the software package of technical
+ analysis project. Allow you to quickly create microservices with HTTP API using
+ callback function.
+
+Package: libtasp-microservice
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Software package of technical analysis microservice libraries
+ Library for creating microservices of the software package of technical
+ analysis project. Allow you to quickly create microservices with HTTP API using
+ callback function.
